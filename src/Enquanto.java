@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Enquanto {
+    public static void main(String[] args) {
+
+        Scanner leia = new Scanner(System.in);
+        String continuar;
+
+        do {
+            System.out.println("Olá Mundo!");
+
+            System.out.println("Quer continuar: ");
+            continuar = leia.nextLine();
+
+        }while (continuar.equalsIgnoreCase("S"));
+    }
+}
