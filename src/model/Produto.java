@@ -7,7 +7,10 @@ public class Produto {
     private int quantidadeEstoque;
     private String tamanho;
 
-    //Construtor de Objeto
+    //Construtor de Objeto vazio
+    public Produto(){}
+
+    //Construtor de Objeto com parametros (com valores)
     public Produto(String nome, double preco, int quantidadeEstoque,String tamanho){
         this.nome = nome;
         this.preco = preco;
